@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteRule ^lien-quan/tai-khoan-so-([0-9]+) account.php?id=$1
+RewriteRule ^dang-xuat$ logout.php
+RewriteRule ^user$ user.php
+RewriteRule ^nap-the-cao$ nap-the.php
+RewriteRule ^thu-van-may$ spin.php
